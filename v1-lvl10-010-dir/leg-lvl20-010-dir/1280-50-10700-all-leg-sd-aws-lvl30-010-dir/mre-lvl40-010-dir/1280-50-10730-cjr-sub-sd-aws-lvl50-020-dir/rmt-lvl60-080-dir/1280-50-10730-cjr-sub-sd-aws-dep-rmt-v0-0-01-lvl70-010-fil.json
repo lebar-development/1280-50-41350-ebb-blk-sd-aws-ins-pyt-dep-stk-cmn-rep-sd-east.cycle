@@ -1,0 +1,10 @@
+{
+  "resourceMetadataKEY": "yes",
+  "aliasNameKEY": "name",
+  "resourceNameKEY": "ec2-jump-block-one-2b-1280-50-sub-sd",
+  "cfqridKEY": "1280-50-10730-cjr-sub-sd-aws",
+  "accessTypeKEY": "none",
+  "stackNameKEY": "1280-50-10730-cjr-sub-sd-aws-dep-stk-v0-0-01-lvl70-010-fil.py",
+  "deploymentOrderNumber10700KEY": "10730",
+  "deletionProtectionFlag10700KEY": "none"
+}
