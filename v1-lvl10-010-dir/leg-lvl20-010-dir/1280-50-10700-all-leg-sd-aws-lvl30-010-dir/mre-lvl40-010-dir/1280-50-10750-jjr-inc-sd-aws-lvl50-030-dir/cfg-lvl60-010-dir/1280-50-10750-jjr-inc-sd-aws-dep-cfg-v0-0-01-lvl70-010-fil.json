@@ -1,0 +1,26 @@
+{
+  "resourceMetadataKEY": "no",
+  "amiEC2InstanceNameKEY": "jump-base-ubuntu-v22-04-1160-30-ami-sd",
+  "publishedDateKEY": "2023-02-03T16:29:57.000Z",
+  "architectureTypeKEY": "x86_64",
+  "virtualizationTypeKEY": "hvm",
+  "rootDeviceTypeKEY": "ebs",
+  "ENAEnabled": "yes",
+  "instanceTypeKEY": "t2.micro",
+  "keyPairNameKEY": "jump-block-one-1280-50-ssh-sd",
+  "existingSecurityGroupNameKEY": "jump-block-one-1280-50-seg-sd",
+  "storageSizeKEY": "13-gib",
+  "storageTypeKEY": "magnetic-standard",
+  "insatnceQuantityKEY": "1",
+  "resourceTagKEY": {
+    "aliasNameKEY": "name",
+    "botNameKEY": "botname",
+    "cifqridKEY": "1280-50-10750-jjr-inc-sd-aws",
+    "resourceTypeKEY": "inc",
+    "blockNumberKEY": "1280-50",
+    "applicationNameKEY": "sambar",
+    "environmentIDKEY": "sd",
+    "regionCodeKEY": "eu-west-2",
+    "deploymentTypeKEY": "sdk"
+  }
+}
