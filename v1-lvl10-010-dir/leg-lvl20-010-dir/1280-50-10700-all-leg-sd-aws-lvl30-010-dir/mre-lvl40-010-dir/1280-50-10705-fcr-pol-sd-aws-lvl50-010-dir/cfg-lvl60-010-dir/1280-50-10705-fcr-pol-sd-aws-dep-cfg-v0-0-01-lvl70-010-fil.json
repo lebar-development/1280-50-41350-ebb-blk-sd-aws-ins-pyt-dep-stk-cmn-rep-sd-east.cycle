@@ -1,0 +1,38 @@
+{
+  "resourceMetadataKEY": "yes",
+  "resourceDescriptionKEY": "This Policy is assigned to the IAM Role jump-block-one-1280-50-rol-sd to give access to jump-block-one-1280-50-inc-sd Jump Instance IN Sambar-dev evrironment.",
+  "resourceStatementStructureKEY": {
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "ecr:GetAuthorizationToken",
+                "ecr:BatchCheckLayerAvailability",
+                "ecr:GetDownloadUrlForLayer",
+                "ecr:GetRepositoryPolicy",
+                "ecr:DescribeRepositories",
+                "ecr:ListImages",
+                "ecr:DescribeImages",
+                "ecr:BatchGetImage",
+                "ecr:GetLifecyclePolicy",
+                "ecr:GetLifecyclePolicyPreview",
+                "ecr:ListTagsForResource",
+                "ecr:DescribeImageScanFindings"
+            ],
+            "Resource": "*"
+        }
+    ]
+},
+  "resourceTagKEY": {
+    "aliasNameKEY": "none",
+    "botNameKEY": "botname",
+    "cfqridKEY": "1280-50-10705-fcr-pol-sd-aws",
+    "resourceTypeKEY": "pol",
+    "blockNumberKEY": "1280-50",
+    "applicationNameKEY": "sambar",
+    "environmentIDKEY": "sd",
+    "regionCodeKEY": "eu-west-2",
+    "deploymentTypeKEY": "sdk"
+  }
+}
